@@ -7,6 +7,7 @@ import MainPage from './pages/MainPage';
 
 const App = () => {
     // Use PUBLIC_URL for GitHub Pages deployment, empty for local dev
+    // Create React App sets PUBLIC_URL to the homepage pathname
     const basename = process.env.PUBLIC_URL || '';
     
     return (
