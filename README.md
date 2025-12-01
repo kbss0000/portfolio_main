@@ -1,65 +1,127 @@
-# Matrix Portfolio Template
+# Matrix Portfolio - K.B.S Srikar
 
-Welcome!
+An immersive terminal-based portfolio website inspired by The Matrix, featuring a dark-themed interface with Matrix rain animation and command-line navigation.
 
-I created this as a tribute to my love for the Matrix movie. In this repository, I’ve designed an immersive and interactive experience where users can explore various aspects of my work as if they’re navigating a terminal.
+🌐 **Live Site:** [https://kbss0000.github.io/portfolio_main](https://kbss0000.github.io/portfolio_main)
 
+## 🎯 Features
 
-## Features
-### Terminal Emulator Experience
+- **Terminal Emulator Interface**: Navigate through the portfolio using Unix-like commands
+- **Matrix Rain Animation**: Animated background inspired by The Matrix movie
+- **Responsive Design**: Fully optimized for mobile and desktop devices
+- **Interactive Commands**: Type commands like `ls`, `help`, `about`, `projects`, `experience` to explore
+- **Project Showcases**: Detailed project descriptions with live demos and GitHub links
+- **Experience Page**: Work experience and internship details
+- **About Page**: Resume and bio information
 
+## 🚀 Quick Start
 
-https://github.com/asigdel29/portfolio/assets/64096825/e3ca1b35-dd28-4a33-8a27-2256b456930f
+### Prerequisites
 
+- Node.js (v18 or higher)
+- npm or yarn
 
-I've designed this portfolio to provide an immersive terminal emulator experience. The interactive terminal-like interface allows you to navigate through my work and discover my projects with ease. Feel free to use the provided commands to explore my portfolio and learn more about my journey as a developer.
+### Installation
 
-### Matrix Rain
+```bash
+# Clone the repository
+git clone https://github.com/kbss0000/portfolio_main.git
 
-https://github.com/asigdel29/portfolio/assets/64096825/68bb7388-1ac7-4e62-aaa2-908603697d78
+# Navigate to the project directory
+cd portfolio_main
 
-One of the standout features of this portfolio is the Matrix Rain background. Inspired by the iconic "falling code" effect from the movie "The Matrix," I've integrated this mesmerizing JavaScript animation using HTML5 Canvas and JavaScript. The Matrix Rain adds an extra layer of immersion and nostalgia to your journey through my projects.
+# Install dependencies
+npm install
 
-### Portfolio Pages
-
-Here's a quick overview of the different sections you'll find:
-
-- **Home**: The main landing page provides an introduction to my portfolio and highlights my key skills and areas of expertise.
-
-- **Projects**: The Projects page showcases various web development and software projects I've worked on. You can interact with the projects using the terminal emulator, just like a real developer.
-
-- **About**: The About page provides a brief overview of my background, skills, and interests, giving you a glimpse into who I am beyond the code.
-
-- **Research**: The Research page highlights my academic and research work, including publications and projects that demonstrate my commitment to continuous learning.
-
-- **Miscellaneous**: The Miscellaneous page contains additional content and experiments that I've created, offering a diverse range of experiences.
-
-### Example
-
-To help you get started, here's a quick example of how to navigate the Projects page using the interactive terminal:
-
-1. Type `ls` to list all available projects.
-2. To learn more about a specific project, type its name, e.g., `CPRTool`.
-3. Explore project descriptions and interact with project-specific features.
-
-
-### Cloning and Personalization
-To personalize this portfolio for yourself, you can clone this repository and modify the content to showcase your own projects and skills. Here's how you can do it:
-
-1. Clone the repository to your local machine using Git:
-
-```console
-git clone https://github.com/asigdel29/portfolio.git
+# Start the development server
+npm start
 ```
-2. Navigate to the cloned repository:
-```console
-cd portfolio
+
+The app will open at `http://localhost:3000`
+
+## 📁 Project Structure
+
 ```
-3. Edit the content to personalize it for yourself. You can modify the Projects, About, Research, and Miscellaneous pages to reflect your own projects, skills, academic background, and additional content.
+portfolio_main/
+├── src/
+│   ├── Components/
+│   │   ├── About Page/          # About page components
+│   │   ├── Experience Page/     # Work experience components
+│   │   ├── Project Page/         # Project showcase components
+│   │   └── Page Layout/         # Layout and Matrix rain
+│   ├── pages/                    # Main page components
+│   ├── hooks/                    # Custom React hooks
+│   └── Styles/                   # CSS stylesheets
+├── public/                       # Static assets
+└── .github/workflows/            # GitHub Actions for deployment
+```
 
+## 🎮 Available Commands
 
-4. Once you've made your changes, you can deploy the portfolio to a hosting service of your choice (I use Vercel) to make it live.
+- `ls` - List all available commands
+- `help` - Show help information
+- `about` - Navigate to About page
+- `projects` - Navigate to Projects page
+- `experience` - Navigate to Experience page
+- `cd` - Go back to main page
+- `whoami` - Display current user
+- `date` - Show current date
+- `pwd` - Print working directory
 
-I hope you enjoy the immersive experience. If you have any questions, feedback, or suggestions, don't hesitate to reach out. Don't forget to give the repository a star ⭐️ to show your support!
+## 🛠️ Tech Stack
 
-Cheers!
+- **Frontend**: React 18
+- **Routing**: React Router DOM
+- **Styling**: CSS3 with responsive design
+- **Deployment**: GitHub Pages with GitHub Actions
+- **Build Tool**: Create React App
+
+## 📦 Projects Featured
+
+1. **Study Flow** - AI-Powered Productivity Suite
+   - React, FastAPI, PostgreSQL, Groq API
+   - [Live Demo](https://studyflow-nctjszjb5-kbssrikar7s-projects.vercel.app/)
+   - [GitHub](https://github.com/kbss0000/Study-Flow-AI-Powered-Productivity-Suite)
+
+2. **Handwritten Equation Solver**
+   - TensorFlow, Next.js, FastAPI, OpenCV
+   - [Live Demo](https://simple-math-solver.vercel.app/)
+   - [GitHub](https://github.com/kbss0000/Handwritten-Equation-Solver)
+
+3. **Cardio Risk Analyzer**
+   - Next.js, FastAPI, XGBoost, CatBoost
+   - [Live Demo](https://cardioml-kbss.vercel.app/)
+   - [GitHub](https://github.com/kbss0000/Cardio-Risk-Analyzer)
+
+## 🚢 Deployment
+
+This portfolio is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a build and deployment.
+
+### Manual Deployment
+
+```bash
+# Build the project
+npm run build
+
+# The build folder is ready to be deployed
+```
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**Kasilanka Bhoopesh Siva Srikar**
+
+- GitHub: [@kbss0000](https://github.com/kbss0000)
+- LinkedIn: [K.B.S Srikar](https://www.linkedin.com/in/kbssrikar/)
+- Email: kbsivasrikar@gmail.com
+
+## ⭐ Show Your Support
+
+If you like this portfolio, give it a star ⭐ on GitHub!
+
+---
+
+Built with ❤️ using React and The Matrix inspiration

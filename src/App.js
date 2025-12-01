@@ -6,8 +6,8 @@ import Experience from './pages/Experience';
 import MainPage from './pages/MainPage';
 
 const App = () => {
-    // Get basename from package.json homepage or use empty string for local dev
-    const basename = process.env.PUBLIC_URL ? new URL(process.env.PUBLIC_URL).pathname : '';
+    // Use PUBLIC_URL for GitHub Pages deployment, empty for local dev
+    const basename = process.env.PUBLIC_URL || '';
     
     return (
         <Router basename={basename}>
