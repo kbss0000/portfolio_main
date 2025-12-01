@@ -2,7 +2,7 @@
 
 An immersive terminal-based portfolio website inspired by The Matrix, featuring a dark-themed interface with Matrix rain animation and command-line navigation.
 
-🌐 **Live Site:** [https://kbss0000.github.io/portfolio_main](https://kbss0000.github.io/portfolio_main)
+🌐 **Live Site:** [https://kbss0000.github.io/portfolio_main/](https://kbss0000.github.io/portfolio_main/)
 
 ## 🎯 Features
 
